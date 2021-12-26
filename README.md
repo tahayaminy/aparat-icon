@@ -28,7 +28,7 @@
     position: relative;
     transform: rotate(15deg);
     display: inline-block;
-    font-size: 1em;
+    font-size: 1em;/*size in em*/
     color: black;/* color */
 }
 .circles,.center-circle,.border {
