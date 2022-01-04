@@ -8,7 +8,7 @@
 
 - use this template for aparat icon:
 ```
-<section class="container">
+<section class="aparat-container">
     <div class="fas fa-square corner"></div>
     <div class="fas fa-circle border"></div>
     <div class="fas fa-circle cont-circles">
@@ -19,22 +19,23 @@
     <i class="fas fa-circle circles"></i>
     </div>
 </section>
+aparat
 ```
 
 - use this style for aparat icon:
 
 ```
-.container {
+.aparat-container {
     position: relative;
     transform: rotate(15deg);
     display: inline-block;
     padding: 1em;
     font-size: 1em;/*size in em*/
     color: black;/* color */
-}
+}         
 .circles,.center-circle,.border {
     color:white;/* bgcolor */
-}
+}   
 /* dont change */
 .cont-circles {
     font-size: 1.6em;
@@ -42,7 +43,7 @@
 }
 .center-circle {
     position: absolute;
-    font-size: 0.1em;
+    font-size: 0.1em;  
 }
 .circles {
     position: absolute;
